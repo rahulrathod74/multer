@@ -1,0 +1,19 @@
+Develop an Express server with the ability to handle file uploads. The server should:
+
+- Serve an HTML form from the root route (/) for file submission.
+- Handle file uploads via a POST request to /upload.
+- Utilize the Multer middleware for processing file uploads.
+- Once the file has been processed by server, it needs to be uploaded to cloudinary and you need to store the url to send in the response.
+- Provide feedback to the user upon successful file upload with a status code of 200 and a confirmation message.
+
+
+Task :
+/ -> Form for submission [FORM]
+/upload -> POST - File upload
+
+** Multer 
+
+** Needs to upload to cloudinary and store the url
+
+** Response code : 200 [with a success message
+-- File Uploaded Successfully
